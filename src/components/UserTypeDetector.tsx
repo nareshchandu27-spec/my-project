@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { User, Users, Building, Zap, Shield, BarChart3 } from 'lucide-react';
+import { User, Users, Building, Zap, Shield, ChartBar as BarChart3 } from 'lucide-react';
 
 interface UserTypeDetectorProps {
   onUserTypeSelect: (type: 'solo' | 'startup' | 'enterprise') => void;

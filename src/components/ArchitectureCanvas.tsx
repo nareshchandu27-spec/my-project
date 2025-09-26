@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Database, Code, Shield, Zap, Cloud, Monitor, GitBranch, DollarSign, Clock, AlertTriangle } from 'lucide-react';
+import { Database, Code, Shield, Zap, Cloud, Monitor, GitBranch, DollarSign, Clock, TriangleAlert as AlertTriangle } from 'lucide-react';
 
 interface Component {
   id: string;
