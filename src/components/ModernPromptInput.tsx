@@ -1,28 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  Send, 
-  Sparkles, 
-  Code, 
-  Database, 
-  Shield, 
-  Zap, 
-  Globe,
-  Upload,
-  Mic,
-  Image,
-  FileText,
-  Plus,
-  ArrowRight,
-  Wand2,
-  Layers,
-  Server,
-  Lock,
-  Cloud,
-  GitBranch,
-  Settings,
-  Play
-} from 'lucide-react';
+import { Send, Sparkles, Code, Database, Shield, Zap, Globe, Upload, Mic, Image, FileText, Plus, ArrowRight, Wand as Wand2, Layers, Server, Lock, Cloud, GitBranch, Settings, Play } from 'lucide-react';
 
 interface ModernPromptInputProps {
   onGenerate: (prompt: string, options: any) => void;

@@ -1,25 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  ArrowLeft, 
-  Play, 
-  Pause, 
-  RotateCcw, 
-  Download, 
-  Share, 
-  Eye,
-  Code,
-  Database,
-  Server,
-  Shield,
-  Zap,
-  Cloud,
-  GitBranch,
-  CheckCircle,
-  Clock,
-  AlertCircle,
-  Sparkles
-} from 'lucide-react';
+import { ArrowLeft, Play, Pause, RotateCcw, Download, Share, Eye, Code, Database, Server, Shield, Zap, Cloud, GitBranch, CircleCheck as CheckCircle, Clock, CircleAlert as AlertCircle, Sparkles } from 'lucide-react';
 
 interface GenerationStep {
   id: string;
